@@ -29,6 +29,8 @@ def save_to_db(data):
     connection.commit()
     cursor.close()
     connection.close()
+    
+print("haha")
 
 if __name__ == '__main__':
     user_input = get_user_input()
